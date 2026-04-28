@@ -147,7 +147,7 @@ export default function Home() {
           {/* Heading */}
           <h1
             className="animate-fade-up"
-            style={{ fontFamily: "var(--font-cormorant)", lineHeight: 0.92 }}
+            style={{ fontFamily: "Cormorant Garamond, serif", lineHeight: 0.92 }}
           >
             <span className="block text-[clamp(52px,9vw,120px)] font-[300] text-white tracking-[-0.02em]">
               Derecho con
@@ -202,7 +202,7 @@ export default function Home() {
               <div key={s.num} className="pr-8">
                 <div
                   className="text-[clamp(32px,4vw,52px)] font-[300] text-gold-gradient leading-none mb-2"
-                  style={{ fontFamily: "var(--font-cormorant)" }}
+                  style={{ fontFamily: "Cormorant Garamond, serif" }}
                 >
                   {s.num}
                 </div>
@@ -230,7 +230,7 @@ export default function Home() {
               </p>
               <h2
                 className="text-[clamp(36px,5vw,64px)] font-[300] text-white leading-tight"
-                style={{ fontFamily: "var(--font-cormorant)" }}
+                style={{ fontFamily: "Cormorant Garamond, serif" }}
               >
                 Soluciones jurídicas
                 <br />
@@ -254,7 +254,7 @@ export default function Home() {
                 </div>
                 <h3
                   className="text-[22px] font-[500] text-white mb-4 leading-snug group-hover:text-gold-gradient transition-all duration-300"
-                  style={{ fontFamily: "var(--font-cormorant)" }}
+                  style={{ fontFamily: "Cormorant Garamond, serif" }}
                 >
                   {service.title}
                 </h3>
@@ -279,7 +279,7 @@ export default function Home() {
             <p className="text-[10px] tracking-[0.28em] uppercase text-[#C9A96E] mb-4">Metodología</p>
             <h2
               className="text-[clamp(32px,4vw,54px)] font-[300] text-white"
-              style={{ fontFamily: "var(--font-cormorant)" }}
+              style={{ fontFamily: "Cormorant Garamond, serif" }}
             >
               Un proceso claro,{" "}
               <em className="font-[500] text-gold-gradient">sin sorpresas.</em>
@@ -299,13 +299,13 @@ export default function Home() {
               >
                 <div
                   className="text-[56px] font-[300] text-[#C9A96E]/20 leading-none mb-6"
-                  style={{ fontFamily: "var(--font-cormorant)" }}
+                  style={{ fontFamily: "Cormorant Garamond, serif" }}
                 >
                   {step.num}
                 </div>
                 <h3
                   className="text-[20px] font-[500] text-white mb-4"
-                  style={{ fontFamily: "var(--font-cormorant)" }}
+                  style={{ fontFamily: "Cormorant Garamond, serif" }}
                 >
                   {step.title}
                 </h3>
@@ -323,7 +323,7 @@ export default function Home() {
             <p className="text-[10px] tracking-[0.28em] uppercase text-[#C9A96E] mb-4">El Equipo</p>
             <h2
               className="text-[clamp(36px,5vw,64px)] font-[300] text-white leading-tight"
-              style={{ fontFamily: "var(--font-cormorant)" }}
+              style={{ fontFamily: "Cormorant Garamond, serif" }}
             >
               Quiénes lo{" "}
               <em className="font-[500] text-gold-gradient">representan.</em>
@@ -349,7 +349,7 @@ export default function Home() {
               <div className="p-10">
                 <h3
                   className="text-[clamp(26px,3vw,38px)] font-[500] text-white leading-tight mb-1"
-                  style={{ fontFamily: "var(--font-cormorant)" }}
+                  style={{ fontFamily: "Cormorant Garamond, serif" }}
                 >
                   Gonzalo Frid
                 </h3>
@@ -392,7 +392,7 @@ export default function Home() {
               <div className="p-10">
                 <h3
                   className="text-[clamp(26px,3vw,38px)] font-[500] text-white leading-tight mb-1"
-                  style={{ fontFamily: "var(--font-cormorant)" }}
+                  style={{ fontFamily: "Cormorant Garamond, serif" }}
                 >
                   Daniela Spinelli
                 </h3>
@@ -436,7 +436,7 @@ export default function Home() {
             <p className="text-[10px] tracking-[0.28em] uppercase text-[#C9A96E] mb-4">Pilares del Estudio</p>
             <h2
               className="text-[clamp(36px,5vw,64px)] font-[300] text-white leading-tight"
-              style={{ fontFamily: "var(--font-cormorant)" }}
+              style={{ fontFamily: "Cormorant Garamond, serif" }}
             >
               Lo que nos{" "}
               <em className="font-[500] text-gold-gradient">define.</em>
@@ -452,7 +452,7 @@ export default function Home() {
                 <div className="w-8 h-px bg-[#C9A96E] mb-8 group-hover:w-14 transition-all duration-500" />
                 <h3
                   className="text-[28px] font-[500] text-white mb-4 group-hover:text-gold-gradient transition-all duration-300"
-                  style={{ fontFamily: "var(--font-cormorant)" }}
+                  style={{ fontFamily: "Cormorant Garamond, serif" }}
                 >
                   {v.label}
                 </h3>
@@ -470,7 +470,7 @@ export default function Home() {
             <p className="text-[10px] tracking-[0.28em] uppercase text-[#C9A96E] mb-4">Consulta sin compromiso</p>
             <h2
               className="text-[clamp(36px,5vw,64px)] font-[300] text-white leading-tight"
-              style={{ fontFamily: "var(--font-cormorant)" }}
+              style={{ fontFamily: "Cormorant Garamond, serif" }}
             >
               Hablemos de{" "}
               <em className="font-[500] text-gold-gradient">su caso.</em>

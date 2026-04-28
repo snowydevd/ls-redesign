@@ -12,8 +12,8 @@
   --color-off-white: #EFF4F8;
   --color-muted: #7A9BB5;
 
-  --font-display: var(--font-cormorant);
-  --font-sans: var(--font-dm-sans);
+  --font-display: 'Cormorant Garamond', serif;
+  --font-sans: 'DM Sans', sans-serif;
 }
 
 * {
@@ -27,7 +27,7 @@ html {
 body {
   background-color: #071828;
   color: #EFF4F8;
-  font-family: var(--font-dm-sans), 'DM Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
